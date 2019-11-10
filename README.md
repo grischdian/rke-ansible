@@ -9,8 +9,12 @@ Install ansbible
 ```
 apt install ansible
 ```
-Ansible ausführen
+Run Ansible
 ```
 cd rke-ansible
 ansible-playbook kubernetes.yaml
+```
+Check Kubernetes
+```
+kubectl get nodes
 ```
